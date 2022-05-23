@@ -1,3 +1,4 @@
-# English strings go here for Rails i18n
 en:
-  # my_label: "My label"
+  label_readonly_after: Read-only after
+  label_readonly_always: Always read-only
+  label_readonly_include_administrator: Read-only for administrator

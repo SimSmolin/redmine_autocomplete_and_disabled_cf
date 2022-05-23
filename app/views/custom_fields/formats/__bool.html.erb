@@ -1,0 +1,5 @@
+<%# if @custom_field.class.name == "TimeEntryCustomField" %>
+  <p><%= f.check_box :readonly_after, {:label => :label_readonly_after} %></p>
+  <p><%= f.check_box :readonly_always, {:label => :label_readonly_always} %></p>
+  <p><%= f.check_box :readonly_include_administrator, {:label => :label_readonly_include_administrator} %></p>
+<%# end %>

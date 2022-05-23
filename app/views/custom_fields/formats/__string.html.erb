@@ -1,0 +1,11 @@
+<% if @custom_field.class.name == "TimeEntryCustomField" %>
+  <p><%= f.check_box :readonly_after, {:label => :label_readonly_after} %></p>
+  <p><%= f.check_box :readonly_always, {:label => :label_readonly_always} %></p>
+  <p><%= f.check_box :readonly_include_administrator, {:label => :label_readonly_include_administrator} %></p>
+  <p><%= f.text_field :custom_action, :size => 50, :label => :label_custom_action %></p>
+  <p>
+    <em class="info">Поле может принимать следующие значения:</em>
+    <em class="info">$user - подставить в поле Текущего пользователя</em>
+    <em class="info">$time_now - дописать в поле Текущее время и пользователя</em>
+  </p>
+<% end %>

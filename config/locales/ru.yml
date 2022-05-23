@@ -1,0 +1,4 @@
+ru:
+  label_readonly_after: Только для чтения после
+  label_readonly_always: Всегда только для чтения
+  label_readonly_include_administrator: и для Адинистратора тоже

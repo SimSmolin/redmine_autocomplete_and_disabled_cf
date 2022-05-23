@@ -1,1 +1,1 @@
-# redmine_autocomplete_and_readonly_cf
+# redmine_autocomplete_and_disabled_cf
